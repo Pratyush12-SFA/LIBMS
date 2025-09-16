@@ -1,0 +1,64 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.logo-section {
+    margin-top: 5px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 30%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+.welcome-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+
+.button-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Buttons */
+.category-btn {
+    padding: 10px 20px;
+    background-color: #ffffffcc;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.category-btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+}
+body{
+    background-image: url("https://images.pexels.com/photos/1290141/pexels-photo-1290141.jpeg");
+    display: flex;
+    background-size: cover;
+
+}
