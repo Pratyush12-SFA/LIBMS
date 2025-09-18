@@ -1,97 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\employeeregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\employeeregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\models\\employeelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\employeelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\models\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\data\\registrationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:data\\registrationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeeloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeeloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeeregdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeeregdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeeregrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeeregrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeeregdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeeregdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeeloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeeloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\employeeregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\employeeregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\employeelogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\registrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\dto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\models\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\employeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\models\\employeelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\employeelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\data\\registrationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:data\\registrationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\dto\\employeeregrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:dto\\employeeregrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\librarymanagement\\backend\\librarymangaementsystem\\librarymangaementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|c:\\users\\welcome\\desktop\\limbs\\librarymanagement\\backend\\librarymangaementsystem\\librarymangaementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2C416C91-0E78-4560-9DD5-FF76E7440AAE}|LibraryMangaementSystem.csproj|solutionrelative:librarymangaementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -102,285 +102,268 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Books.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Books.cs",
-              "RelativeDocumentMoniker": "Models\\Books.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Books.cs",
-              "RelativeToolTip": "Models\\Books.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:03:04.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAADwv2cAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:12:26.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "RegistrationController.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\RegistrationController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\RegistrationController.cs",
               "RelativeToolTip": "Controllers\\RegistrationController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T10:06:13.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T10:06:13.816Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Title": "BooksDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\BooksDto.cs",
+              "RelativeDocumentMoniker": "Dto\\BooksDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\BooksDto.cs",
+              "RelativeToolTip": "Dto\\BooksDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:15:39.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T07:09:07.337Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeRegistrationController.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeRegistrationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeRegistrationController.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeRegistrationController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeRegistrationController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAPAAAAAAAAAA==",
+              "Title": "EmployeeLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginDto.cs",
+              "RelativeDocumentMoniker": "Dto\\EmployeeLoginDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginDto.cs",
+              "RelativeToolTip": "Dto\\EmployeeLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T12:48:03.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:09:59.015Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeLoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeLoginController.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeLoginController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeLoginController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:24:51.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BooksDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\BooksDto.cs",
-              "RelativeDocumentMoniker": "Dto\\BooksDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\BooksDto.cs",
-              "RelativeToolTip": "Dto\\BooksDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T07:09:07.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T11:18:43.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeLogin.cs",
-              "RelativeDocumentMoniker": "Models\\EmployeeLogin.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeLogin.cs",
-              "RelativeToolTip": "Models\\EmployeeLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:08:26.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeRegistration.cs",
-              "RelativeDocumentMoniker": "Models\\EmployeeRegistration.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeRegistration.cs",
-              "RelativeToolTip": "Models\\EmployeeRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T12:34:22.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegistrationContext.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Data\\RegistrationContext.cs",
-              "RelativeDocumentMoniker": "Data\\RegistrationContext.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Data\\RegistrationContext.cs",
-              "RelativeToolTip": "Data\\RegistrationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T10:01:53.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmployeeLoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginDto.cs",
-              "RelativeDocumentMoniker": "Dto\\EmployeeLoginDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginDto.cs",
-              "RelativeToolTip": "Dto\\EmployeeLoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:09:59.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "EmployeeLoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginRequestDto.cs",
               "RelativeDocumentMoniker": "Dto\\EmployeeLoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeLoginRequestDto.cs",
               "RelativeToolTip": "Dto\\EmployeeLoginRequestDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA8wAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:16:16.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:16:16.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "EmployeeRegDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegDto.cs",
               "RelativeDocumentMoniker": "Dto\\EmployeeRegDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegDto.cs",
               "RelativeToolTip": "Dto\\EmployeeRegDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T05:28:36.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T05:28:36.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EmployeeRegRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegRequestDto.cs",
-              "RelativeDocumentMoniker": "Dto\\EmployeeRegRequestDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegRequestDto.cs",
-              "RelativeToolTip": "Dto\\EmployeeRegRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T05:27:35.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Registration.cs",
-              "RelativeDocumentMoniker": "Models\\Registration.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Registration.cs",
-              "RelativeToolTip": "Models\\Registration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T09:55:00.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Models\\Login.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Login.cs",
-              "RelativeToolTip": "Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T10:29:09.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginDto.cs",
               "RelativeDocumentMoniker": "Dto\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginDto.cs",
               "RelativeToolTip": "Dto\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T12:07:08.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "Dto\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginRequestDto.cs",
-              "RelativeToolTip": "Dto\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T12:05:36.051Z"
+              "WhenOpened": "2025-09-11T12:15:39.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
+              "Title": "EmployeeRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeRegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeRegistrationController.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeRegistrationController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeRegistrationController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:48:03.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeLoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeLoginController.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\EmployeeLoginController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeLoginController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:24:51.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:12:26.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "RegistrationRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationRequestDto.cs",
               "RelativeDocumentMoniker": "Dto\\RegistrationRequestDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationRequestDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationRequestDto.cs",
               "RelativeToolTip": "Dto\\RegistrationRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T09:59:40.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
               "Title": "RegistrationDto.cs",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationDto.cs",
               "RelativeDocumentMoniker": "Dto\\RegistrationDto.cs",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\RegistrationDto.cs",
               "RelativeToolTip": "Dto\\RegistrationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T09:57:31.336Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\LoginRequestDto.cs",
+              "RelativeToolTip": "Dto\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T12:05:36.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeRegistration.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeRegistration.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeRegistration.cs",
+              "RelativeToolTip": "Models\\EmployeeRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T12:34:22.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeLogin.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeLogin.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\EmployeeLogin.cs",
+              "RelativeToolTip": "Models\\EmployeeLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:08:26.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T10:29:09.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Registration.cs",
+              "RelativeToolTip": "Models\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T09:55:00.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T11:18:43.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Books.cs",
+              "RelativeDocumentMoniker": "Models\\Books.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Models\\Books.cs",
+              "RelativeToolTip": "Models\\Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T07:03:04.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegistrationContext.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Data\\RegistrationContext.cs",
+              "RelativeDocumentMoniker": "Data\\RegistrationContext.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Data\\RegistrationContext.cs",
+              "RelativeToolTip": "Data\\RegistrationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T10:01:53.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeRegRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegRequestDto.cs",
+              "RelativeDocumentMoniker": "Dto\\EmployeeRegRequestDto.cs",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\Dto\\EmployeeRegRequestDto.cs",
+              "RelativeToolTip": "Dto\\EmployeeRegRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T05:27:35.56Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -390,9 +373,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "LibraryMangaementSystem.csproj",
-              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
               "RelativeDocumentMoniker": "LibraryMangaementSystem.csproj",
-              "ToolTip": "C:\\Users\\Welcome\\Desktop\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
+              "ToolTip": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
               "RelativeToolTip": "LibraryMangaementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

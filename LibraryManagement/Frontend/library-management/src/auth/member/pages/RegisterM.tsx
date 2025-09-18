@@ -1,11 +1,13 @@
 import { useState, type FormEvent } from "react";
 import { Header, Card } from "../../../shared/component/common";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 export default function Register() {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   const [Phone, setPhone] = useState("");
+  const [Member_Type, setMember_Type] = useState("");
+  const navigate = useNavigate();
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -14,6 +16,7 @@ export default function Register() {
       email: Email,
       password: Password,
       phone: Phone,
+      member_type: Member_Type,
     };
 
     const response = await fetch("https://localhost:7260/api/Registration", {
@@ -25,6 +28,7 @@ export default function Register() {
     });
     if (response.status === 200) {
       alert("Register Successfully");
+      navigate("/auth/dashboardm");
     } else if (response.status === 401) {
       alert("Invalid");
     }
@@ -32,6 +36,7 @@ export default function Register() {
     setEmail("");
     setPassword("");
     setPhone("");
+    setMember_Type("");
   }
   return (
     <>
@@ -67,6 +72,16 @@ export default function Register() {
             name="Phone"
             onChange={(e) => setPhone(e.target.value)}
           ></input>
+          <label htmlFor="Member_Type">Account Type</label>
+          <select
+            id="Member_Type"
+            name="Member_Type"
+            value={Member_Type}
+            onChange={(e) => setMember_Type(e.target.value)}
+          >
+            <option value="Standard">Standard</option>
+            <option value="Premium">Preimum</option>
+          </select>
           <button type="submit">Register</button>
           <p>
             Already have an account? <Link to="/auth/login">Login</Link>

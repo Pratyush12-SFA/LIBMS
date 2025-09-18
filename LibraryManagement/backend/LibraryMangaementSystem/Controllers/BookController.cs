@@ -34,8 +34,8 @@ namespace LibraryMangaementSystem.Controllers
 
         public IActionResult GetBooks()
         {
-            var books = _registrationContext.Books.ToList();
-            return Ok(books);
+            var book = _registrationContext.Books.ToList();
+            return Ok(book);
         }
 
         [HttpDelete("DeleteBook/{id}")]

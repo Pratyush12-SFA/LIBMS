@@ -29,7 +29,8 @@ namespace LibraryManagementSystem.Controllers
                 Name = model.Name,
                 Email = model.Email,
                 Password = model.Password,
-                Phone = model.Phone
+                Phone = model.Phone,
+                Member_Type = model.Member_Type
             };
 
             _registrationContext.Member.Add(reg);

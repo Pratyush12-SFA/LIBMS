@@ -1,0 +1,30 @@
+/* src/Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-text {
+    margin-top: 10px;
+}
+
+.dashboard-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    /* Add a border for better styling */
+    border-radius: 5px;
+    /* Add some rounded corners */
+    background-color: #f0f0f0;
+}
+
+.dashboard-button:hover {
+    background-color: #e0e0e0;
+}

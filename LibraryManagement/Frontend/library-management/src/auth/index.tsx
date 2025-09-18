@@ -6,6 +6,7 @@ import Register from "./member/pages/RegisterM";
 import EmployeeR from "./employee/pages/EmployeeR";
 import EmployeeL from "./employee/pages/EmployeeL";
 import DashBoard from "./employee/pages/DashBoard";
+import DashBoardM from "./member/pages/DashBoardM";
 // import EmployeeR from "./employee/pages/EmployeeR";
 // import EmployeeL from "./employee/pages/EmployeeL";
 
@@ -17,6 +18,7 @@ export default function Auth() {
       <Route path="EmployeeR" element={<EmployeeR />} />
       <Route path="EmployeeL" element={<EmployeeL />} />
       <Route path="DashBoard" element={<DashBoard />} />
+      <Route path="DashBoardM" element={<DashBoardM/>} />
     </Routes>
   );
 }

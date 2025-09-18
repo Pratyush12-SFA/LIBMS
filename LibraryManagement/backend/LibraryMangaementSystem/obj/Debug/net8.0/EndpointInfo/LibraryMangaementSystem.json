@@ -374,6 +374,10 @@
           "password": {
             "type": "string",
             "nullable": true
+          },
+          "member_Type": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -396,6 +400,10 @@
             "nullable": true
           },
           "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "member_Type": {
             "type": "string",
             "nullable": true
           }

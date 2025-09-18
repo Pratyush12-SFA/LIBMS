@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LibraryMangaementSystem",
+    "\\LibraryMangaementSystem\\bin\\Debug",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0\\ko",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0\\pl",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0\\pt-BR",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0\\ru",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0\\runtimes",
+    "\\LibraryMangaementSystem\\bin\\Debug\\net8.0\\tr"
+  ],
+  "SelectedNode": "\\LibraryMangaementSystem\\Dto\\EmployeeRegRequestDto.cs",
+  "PreviewInSolutionExplorer": false
+}

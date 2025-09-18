@@ -5,6 +5,7 @@ namespace LibraryMangaementSystem.Dto
     {
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
+        public string Member_Type { get; set; } = string.Empty;
 
 
         public LoginDto(string email, string password)
