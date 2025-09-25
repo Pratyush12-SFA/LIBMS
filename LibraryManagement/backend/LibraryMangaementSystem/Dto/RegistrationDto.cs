@@ -4,7 +4,7 @@ namespace LibraryManagementSystem.Dto
 {
     public class RegistrationDto
     {
-        public int Id { get; set; }
+        public int UserId { get; set; }
 
         public string Name { get; set; } = string.Empty;
 
@@ -14,9 +14,9 @@ namespace LibraryManagementSystem.Dto
         public string Phone { get; set; } 
         public string Member_Type { get; set; } = string.Empty;
 
-        public RegistrationDto(int id, string name, string email, string password, string phone, string member_type)
+        public RegistrationDto(int userid, string name, string email, string password, string phone, string member_type)
         {
-            Id = id;
+            UserId = userid;
             Name = name;
             Email = email;
             Password = password;

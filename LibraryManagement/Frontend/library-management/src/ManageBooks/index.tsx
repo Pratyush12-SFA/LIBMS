@@ -1,16 +1,20 @@
 import { Route, Routes } from "react-router-dom";
 import List from "./Book/pages/List";
-import BookModalForm from "./Book/pages/BookModalFOrm";
+// import BookModalForm from "./Book/pages/BookModalForm";
+import IssuedList from "./IssuedBooks/pages/IssuedList";
+
+
 
 export default function ManageBooks() {
     return (
         <Routes>
             <Route path="List" element={<List />} />
-            <Route path="BookModalFOrm" element={<BookModalForm book={null} onSuccess={function (): void {
-                throw new Error("Function not implemented.");
-            } } onClose={function (): void {
-                throw new Error("Function not implemented.");
-            } }/>} />
+            
+     
+              <Route path="IssuedList" element={<IssuedList/>} />
+             
+          
+           
         </Routes>
     )
 }

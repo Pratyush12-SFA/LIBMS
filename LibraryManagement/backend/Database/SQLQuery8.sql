@@ -1,0 +1,10 @@
+CREATE TABLE Issued_Books(
+[Issue_Id] INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+[BooksId] INT NOT NULL,
+[Book_Name] NVARCHAR(500),
+[UserId] INT NOT NULL,
+[Member_Type] NVARCHAR NOT NULL,
+[Issue_Date] DATE NOT NULL,
+[Return_Date] DATE NOT NULL,
+[Over_Due] INT NOT NULL
+);

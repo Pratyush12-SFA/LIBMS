@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import BookModalForm from "./BookModalFOrm";
+import BookModalForm from "./BookModalForm";
 import "./List&Modal.css";
 
 interface Book {
@@ -131,7 +131,7 @@ export default function List() {
                 <td>{book.isbn}</td>
                 <td>{formatDate(book.published_Date)}</td>
                 <td>
-                  <button onClick={() => handleEdit(book)}>Edit</button>
+                  <button type="button" onClick={() => handleEdit(book)}>Edit</button>
                   <button onClick={() => handleDelete(book.booksId)}>
                     Delete
                   </button>

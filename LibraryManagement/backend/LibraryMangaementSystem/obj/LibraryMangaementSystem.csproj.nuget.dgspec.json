@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj": {}
+    "C:\\Users\\Sfa\\Libms\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj": {
+    "C:\\Users\\Sfa\\Libms\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Sfa\\Libms\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
         "projectName": "LibraryMangaementSystem",
-        "projectPath": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
-        "packagesPath": "C:\\Users\\Welcome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Welcome\\Desktop\\Limbs\\LibraryManagement\\backend\\LibraryMangaementSystem\\obj\\",
+        "projectPath": "C:\\Users\\Sfa\\Libms\\LibraryManagement\\backend\\LibraryMangaementSystem\\LibraryMangaementSystem.csproj",
+        "packagesPath": "C:\\Users\\Sfa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sfa\\Libms\\LibraryManagement\\backend\\LibraryMangaementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Welcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sfa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

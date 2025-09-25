@@ -219,6 +219,180 @@
         }
       }
     },
+    "/api/Issued_Books/GetIssuedBooks": {
+      "get": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Issued_Books/{id}": {
+      "get": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Issued_Books"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Issued_Books"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Issued_Books"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Issued_Books/IssueBook": {
+      "post": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Issued_Books"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Issued_Books"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Issued_Books"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Issued_Books": {
+      "delete": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Issued_Books/ReturnBook/{id}": {
+      "post": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Issued_Books/ReissueBook/{id}": {
+      "post": {
+        "tags": [
+          "Issued_Books"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Login": {
       "post": {
         "tags": [
@@ -339,25 +513,73 @@
         "additionalProperties": false
       },
       "EmployeeRegRequestDto": {
+        "required": [
+          "email",
+          "name",
+          "password",
+          "phone"
+        ],
         "type": "object",
         "properties": {
           "name": {
             "maxLength": 200,
             "minLength": 3,
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "email": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "password": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "phone": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Issued_Books": {
+        "required": [
+          "issued_Book_Name",
+          "member_Type",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "issue_Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "booksId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "issued_Book_Name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "member_Type": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "issue_Date": {
             "type": "string",
-            "nullable": true
+            "format": "date-time"
+          },
+          "return_Date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "over_Due": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -374,38 +596,40 @@
           "password": {
             "type": "string",
             "nullable": true
-          },
-          "member_Type": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
       },
       "RegistrationRequestDto": {
+        "required": [
+          "email",
+          "member_Type",
+          "name",
+          "password",
+          "phone"
+        ],
         "type": "object",
         "properties": {
           "name": {
             "maxLength": 200,
             "minLength": 3,
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "email": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "password": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "phone": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "member_Type": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

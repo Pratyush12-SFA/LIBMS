@@ -36,7 +36,7 @@ namespace LibraryManagementSystem.Controllers
             _registrationContext.Member.Add(reg);
             _registrationContext.SaveChanges();
 
-            return Ok("Reg is success");
+            return Ok("Registration is success");
         }
     }
 }

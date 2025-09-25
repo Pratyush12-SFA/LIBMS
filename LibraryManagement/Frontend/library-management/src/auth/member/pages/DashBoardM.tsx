@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import { useNavigate } from "react-router-dom";
+
 
 interface Book {
   booksId: number;
@@ -16,6 +18,7 @@ export default function DashBoardM() {
   const [books, setBooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate()
 
   useEffect(() => {
     async function fetchBooks() {
@@ -60,6 +63,7 @@ export default function DashBoardM() {
   };
 
   return (
+    <>
     <div className="book-list-container">
       <h1>Library Books</h1>
       {books.length > 0 ? (
@@ -93,7 +97,16 @@ export default function DashBoardM() {
         </table>
       ) : (
         <p>No books found in the library.</p>
-      )}
+     )}
     </div>
+
+    
+          <button type="button" className="category-btn" onClick={() => navigate("/ManageBooks/IssuedList")}>
+            Issue Book
+          </button>
+          <button type="button" className="category-btn" onClick={() => navigate("/ManageBooks/IssuedList")}>
+           Return Book
+          </button>
+    </>
   );
 }

@@ -1,0 +1,64 @@
+# ----------------------------------------------------------------------
+# GIT IGNORE FILE
+# Recommended for projects using Node.js (Frontend) and .NET (Backend)
+# ----------------------------------------------------------------------
+
+# -----------------
+# 1. VISUAL STUDIO / .NET / C#
+# -----------------
+# Visual Studio files and folders that should not be committed
+.vs/
+*.user
+*.suo
+*.sln.docstates
+[Aa]utoTest.Net.csproj.user
+
+# Binaries and temporary files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Package files
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Test results
+TestResults/
+_ReSharper*/
+*.dotCover
+
+# -----------------
+# 2. NODE / NPM (Frontend)
+# -----------------
+# Node modules folder
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build output folders
+dist/
+build/
+out/
+.next/ # Next.js
+.nuxt/ # Nuxt.js
+.cache/
+coverage/
+
+# Misc
+.env
+.env.*
+pids
+*.pid
+*.seed
+*.log

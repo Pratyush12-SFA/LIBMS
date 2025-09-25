@@ -25,7 +25,7 @@ export default function EmployeeLogin() {
       });
 
       if (response.status === 200) {
-        alert("Login Successfully");
+ 
         navigate("/auth/DashBoard");
       } else if (response.status === 401) {
         alert("Unauthorized");

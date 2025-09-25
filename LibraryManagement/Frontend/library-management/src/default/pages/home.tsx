@@ -8,26 +8,20 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <div className="logo-section">
+      <div>
         <img src={logo} alt="Library Logo" className="logo" />
       </div>
 
       <h1 className="welcome-text">Welcome to Book Warden Library</h1>
 
-      <Card title="Choose Category!">
+      <Card title="Start Here">
         <div className="button-section">
-          <button
-            className="category-btn"
-            onClick={() => navigate("/auth/login")}
-          >
-            Member
-          </button>
-
+        
           <button
             className="category-btn"
             onClick={() => navigate("/auth/EmployeeL")}
           >
-            Employee
+            Get Started
           </button>
         </div>
       </Card>

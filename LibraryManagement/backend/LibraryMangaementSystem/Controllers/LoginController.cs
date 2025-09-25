@@ -22,7 +22,7 @@ namespace LibraryManagementSystem.Controllers
                 return BadRequest(ModelState);
             }
             var user = _registrationContext.Member
-                .FirstOrDefault(u => u.Email == model.Email && u.Password == model.Password && u.Member_Type == model.Member_Type);
+                .FirstOrDefault(u => u.Email == model.Email && u.Password == model.Password);
             if (user == null)
             {
                 return Unauthorized("Invalid email or password.");
