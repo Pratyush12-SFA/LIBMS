@@ -21,6 +21,9 @@ export default function List() {
   const [error, setError] = useState<string | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
+
+
 
   const fetchBooks = async () => {
     try {
@@ -45,6 +48,43 @@ export default function List() {
   useEffect(() => {
     fetchBooks();
   }, []);
+
+  const handleSearch = async (query: string) => {
+    setLoading(true);
+    setError(null);
+    try{
+      if (query.trim() === "" ) {
+        fetchBooks();
+        return;
+      }
+
+      const response = await fetch(
+        `${API_URL}/SearchBooks?query=${encodeURIComponent(query)}`
+
+      );
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(
+          `Http error! Sattus: ${response.status}, Message: ${errorText}`
+        );
+
+      }
+      const data: Book[] = await response.json();
+      setBooks(data);
+    }
+    catch (e: unknown) {
+      if (e instanceof Error) {
+        setError(e.message);
+      } else {
+        setError("An unexpected error occurred during search. ");
+      }
+      console.error("Failed to search for book:", e);
+      setBooks([]);
+    }
+    finally {
+      setLoading(false);
+    }
+  };
 
   const handleDelete = async (bookId: number) => {
     if (window.confirm("Are you sure you want to delete this book?")) {
@@ -103,6 +143,21 @@ export default function List() {
     <div className="book-list-container">
       <h1>Library Books</h1>
       <button onClick={handleAddClick}>Add New Book</button>
+      <div className="search-container">
+        <input
+        type = "text"
+        placeholder="Search books here"
+        value={searchQuery}
+        onChange = {(e) => setSearchQuery(e.target.value)} 
+        onKeyUp = {(e) => {
+            if (e.key === "Enter") {
+              handleSearch(searchQuery);
+            }
+        }}
+        />
+         <button onClick={() => handleSearch(searchQuery)}>Search</button>
+
+      </div>
 
       {books.length > 0 ? (
         <table>

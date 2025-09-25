@@ -173,7 +173,7 @@
       },
       {
         "Name": "updateIssuedBook",
-        "Type": "LibraryMangaementSystem.Models.Issued_Books",
+        "Type": "LibraryMangaementSystem.Models.IssuedBooks",
         "IsRequired": true
       }
     ],
@@ -199,7 +199,7 @@
     "Parameters": [
       {
         "Name": "issued_Books",
-        "Type": "LibraryMangaementSystem.Models.Issued_Books",
+        "Type": "LibraryMangaementSystem.Models.IssuedBooks",
         "IsRequired": true
       }
     ],
@@ -233,6 +233,22 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "Method": "SearchIssuedBook",
+    "RelativePath": "api/Issued_Books/SearchIssuedBook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

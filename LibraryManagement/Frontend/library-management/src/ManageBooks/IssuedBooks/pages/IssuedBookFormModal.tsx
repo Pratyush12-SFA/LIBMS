@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
-import "./IssueBookFormModal.css"
-import "./IssuedList"
+import "./IssueBookFormModal.css";
+import "./IssuedList";
 
 interface Issue {
   issue_Id: number;
   booksId: number;
   issued_Book_Name: string;
   userId: number;
+  member_Name: string;
   member_Type: string;
   issue_Date: string;
   return_Date: string;
@@ -20,7 +21,12 @@ interface IssuedBookFormModalProps {
   initialData: Issue;
 }
 
-const IssuedBookFormModal: React.FC<IssuedBookFormModalProps> = ({ isOpen, onClose, onSave, initialData }) => {
+const IssuedBookFormModal: React.FC<IssuedBookFormModalProps> = ({
+  isOpen,
+  onClose,
+  onSave,
+  initialData,
+}) => {
   const [formData, setFormData] = useState<Issue>(initialData);
 
   useEffect(() => {
@@ -49,7 +55,9 @@ const IssuedBookFormModal: React.FC<IssuedBookFormModalProps> = ({ isOpen, onClo
       <div className="modal">
         <div className="modal-header">
           <h2>Edit Issued Book</h2>
-          <button onClick={onClose} aria-label="Close modal">&times;</button>
+          <button onClick={onClose} aria-label="Close modal">
+            &times;
+          </button>
         </div>
         <div className="modal-body">
           <form onSubmit={handleSubmit}>
@@ -78,6 +86,16 @@ const IssuedBookFormModal: React.FC<IssuedBookFormModalProps> = ({ isOpen, onClo
               />
             </div>
             <div className="form-group">
+              <label>Member Name:</label>
+              <input
+                type="text"
+                value={formData.member_Name}
+                readOnly
+                disabled
+                title="Member Name is derived from User ID"
+              />
+            </div>
+            <div className="form-group">
               <label htmlFor="member_Type">Member Type:</label>
               <input
                 id="member_Type"
@@ -95,7 +113,9 @@ const IssuedBookFormModal: React.FC<IssuedBookFormModalProps> = ({ isOpen, onClo
                 id="issue_Date"
                 type="date"
                 name="issue_Date"
-                value={new Date(formData.issue_Date).toISOString().split('T')[0]}
+                value={
+                  new Date(formData.issue_Date).toISOString().split("T")[0]
+                }
                 onChange={handleChange}
                 title="Select the issue date"
               />
@@ -106,7 +126,9 @@ const IssuedBookFormModal: React.FC<IssuedBookFormModalProps> = ({ isOpen, onClo
                 id="return_Date"
                 type="date"
                 name="return_Date"
-                value={new Date(formData.return_Date).toISOString().split('T')[0]}
+                value={
+                  new Date(formData.return_Date).toISOString().split("T")[0]
+                }
                 onChange={handleChange}
                 title="Select the return date"
               />

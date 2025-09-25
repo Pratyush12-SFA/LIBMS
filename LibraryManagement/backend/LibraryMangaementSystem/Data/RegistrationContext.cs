@@ -12,6 +12,6 @@ namespace LibraryManagementSystem.Data
 
         public DbSet<EmployeeRegistration> Employee { get; set; }
         public DbSet<Books> Books { get; set; }
-        public DbSet<Issued_Books> Issued_Books { get; set; }
+        public DbSet<IssuedBooks> IssuedBooks { get; set; }
     }
 }

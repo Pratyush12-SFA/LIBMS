@@ -856,3 +856,4 @@ C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\n
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.pdb
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.genruntimeconfig.cache
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\ref\LibraryMangaementSystem.dll
+C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.sourcelink.json

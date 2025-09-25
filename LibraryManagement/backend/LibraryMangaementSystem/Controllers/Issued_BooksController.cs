@@ -128,6 +128,7 @@ using LibraryManagementSystem.Data;
 using LibraryManagementSystem.Models;
 using LibraryMangaementSystem.Models;
 using Microsoft.AspNetCore.Mvc;
+using static System.Reflection.Metadata.BlobBuilder;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -146,14 +147,14 @@ public class Issued_BooksController : ControllerBase
     [HttpGet("GetIssuedBooks")]
     public IActionResult GetIssuedBooks()
     {
-        var issuedBooks = _registrationContext.Issued_Books.ToList();
+        var issuedBooks = _registrationContext.IssuedBooks.ToList();
         return Ok(issuedBooks);
     }
 
     [HttpGet("{id}")]
     public IActionResult GetIssuedBookById(int id)
     {
-        var issuedBook = _registrationContext.Issued_Books.FirstOrDefault(ib => ib.Issue_Id == id);
+        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(ib => ib.Issue_Id == id);
         if (issuedBook == null)
         {
             return NotFound("Issued book record not found.");
@@ -162,10 +163,11 @@ public class Issued_BooksController : ControllerBase
     }
 
     [HttpPost("IssueBook")]
-    public IActionResult IssueBook([FromBody] Issued_Books issued_Books)
+    public IActionResult IssueBook([FromBody] IssuedBooks issued_Books)
     {
         var book = _registrationContext.Books.FirstOrDefault(b => b.BooksId == issued_Books.BooksId);
         var member = _registrationContext.Member.FirstOrDefault(m => m.UserId == issued_Books.UserId);
+        
 
         if (book == null)
         {
@@ -179,6 +181,7 @@ public class Issued_BooksController : ControllerBase
 
         issued_Books.Issued_Book_Name = book.Book_Name;
         issued_Books.Member_Type = member.Member_Type;
+        issued_Books.Member_Name = member.Name;
 
         if (issued_Books.Member_Type == "Standard")
         {
@@ -195,7 +198,7 @@ public class Issued_BooksController : ControllerBase
 
         issued_Books.Issue_Date = DateTime.Now.Date;
 
-        _registrationContext.Issued_Books.Add(issued_Books);
+        _registrationContext.IssuedBooks.Add(issued_Books);
         _registrationContext.SaveChanges();
 
         return Ok("Book issued successfully.");
@@ -204,20 +207,20 @@ public class Issued_BooksController : ControllerBase
     [HttpDelete]
     public IActionResult DeleteIssuedBook(int id)
     {
-        var issuedBook = _registrationContext.Issued_Books.FirstOrDefault(ib => ib.Issue_Id == id);
+        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(ib => ib.Issue_Id == id);
         if (issuedBook == null)
         {
             return NotFound("Issued book record not found.");
         }
-        _registrationContext.Issued_Books.Remove(issuedBook);
+        _registrationContext.IssuedBooks.Remove(issuedBook);
         _registrationContext.SaveChanges();
         return Ok("Issued book record deleted successfully.");
     }
 
     [HttpPut("{id}")]
-    public IActionResult UpdateIssuedBook(int id, [FromBody] Issued_Books updateIssuedBook)
+    public IActionResult UpdateIssuedBook(int id, [FromBody] IssuedBooks updateIssuedBook)
     {
-        var issuedBook = _registrationContext.Issued_Books.FirstOrDefault(i => i.Issue_Id == id);
+        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(i => i.Issue_Id == id);
 
         if (issuedBook == null)
         {
@@ -243,7 +246,7 @@ public class Issued_BooksController : ControllerBase
         issuedBook.BooksId = updateIssuedBook.BooksId;
         issuedBook.Member_Type = updateIssuedBook.Member_Type;
         issuedBook.Over_Due = updateIssuedBook.Over_Due;
-        _registrationContext.Issued_Books.Update(issuedBook);
+        _registrationContext.IssuedBooks.Update(issuedBook);
         _registrationContext.SaveChanges();
 
         return Ok(issuedBook + "Issued book record updated successfully.");
@@ -252,13 +255,13 @@ public class Issued_BooksController : ControllerBase
     [HttpPost("ReturnBook/{id}")]
     public IActionResult ReturnBook(int id)
     {
-        var issuedBook = _registrationContext.Issued_Books.FirstOrDefault(ib => ib.Issue_Id == id);
+        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(ib => ib.Issue_Id == id);
         if (issuedBook == null)
         {
             return NotFound("Issued book record not found.");
         }
 
-        _registrationContext.Issued_Books.Remove(issuedBook);
+        _registrationContext.IssuedBooks.Remove(issuedBook);
         _registrationContext.SaveChanges();
         return Ok("Book returned successfully.");
     }
@@ -266,7 +269,7 @@ public class Issued_BooksController : ControllerBase
     [HttpPost("ReissueBook/{id}")]
     public IActionResult ReissueBook(int id)
     {
-        var issuedBook = _registrationContext.Issued_Books.FirstOrDefault(ib => ib.Issue_Id == id);
+        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(ib => ib.Issue_Id == id);
         if (issuedBook == null)
         {
             return NotFound("Issued book record not found.");
@@ -295,10 +298,21 @@ public class Issued_BooksController : ControllerBase
 
         // Set new issue date and reset over_Due
         issuedBook.Issue_Date = DateTime.Now.Date;
-        issuedBook.Over_Due = 0;
+        issuedBook.Over_Due = "0";
 
-        _registrationContext.Issued_Books.Update(issuedBook);
+        _registrationContext.IssuedBooks.Update(issuedBook);
         _registrationContext.SaveChanges();
         return Ok("Book reissued successfully.");
     }
+    [HttpGet("SearchIssuedBook")]
+
+    public IActionResult SearchIssuedBook ([FromQuery] string query)
+        {
+            var books = _registrationContext.IssuedBooks
+                .Where(b => b.Issued_Book_Name.Contains(query) || b.Member_Name.Contains(query))
+                .ToList();
+            return Ok(books);
+}
+
+
 }

@@ -2,21 +2,22 @@
 
 namespace LibraryMangaementSystem.Models
 {
-    public class Issued_Books
+    public class IssuedBooks
     {
         [Key]
 
         public int Issue_Id { get; set; }
         public int BooksId { get; set; }
-        [Required]
-        public required string Issued_Book_Name { get; set; }
-        [Required]
+    
+        public string Issued_Book_Name { get; set; } =string.Empty;
+
         public int UserId { get; set; }
-        [Required]
-        public string Member_Type { get; set; } = String.Empty;
+      
+        public string Member_Name { get; set; } = string.Empty;
+        public string Member_Type { get; set; } = string.Empty;
         public DateTime Issue_Date { get; set; }
         public DateTime Return_Date { get; set; }
-        public int Over_Due { get; set; }
+        public string Over_Due { get; set; } = string.Empty;
 
     }
 }
