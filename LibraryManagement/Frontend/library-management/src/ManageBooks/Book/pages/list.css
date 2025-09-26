@@ -1,0 +1,74 @@
+/* Container for the entire List component */
+.list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container on the page */
+}
+
+/* Header component styling (assuming it renders an h1 or h2) */
+.list-header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 2em;
+}
+
+/* Styling for the "Add Book" Link */
+.add-book-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-book-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* --- Datagrid Styling (assuming it uses a table structure) --- */
+
+/* Overall container for the grid */
+.datagrid {
+    width: 100%;
+    border-collapse: collapse; /* Ensure clean table borders */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: white;
+}
+
+/* Table Header (<thead>) styling */
+.datagrid-header-row {
+    background-color: #f8f9fa; /* Light background for header */
+    color: #495057; /* Darker text color */
+}
+
+/* Individual Header Cell (<th>) styling */
+.datagrid th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Individual Data Cell (<td>) styling */
+.datagrid td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #dee2e6;
+    color: #333;
+}
+
+/* Striped rows for better readability */
+.datagrid tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Very light gray for even rows */
+}
+
+/* Highlight row on hover for better user experience */
+.datagrid tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}

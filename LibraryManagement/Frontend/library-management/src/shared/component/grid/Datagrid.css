@@ -1,0 +1,13 @@
+table.data-grid {
+  border-collapse: collapse;
+  border: 1px solid var(--primary-color);
+  width: 100%;
+  color:black ;
+}
+
+table.data-grid td,
+table.data-grid th {
+  border: 1px solid var(--primary-color);
+  padding: 5px;
+  color: aquamarine;
+}

@@ -307,12 +307,12 @@ public class Issued_BooksController : ControllerBase
     [HttpGet("SearchIssuedBook")]
 
     public IActionResult SearchIssuedBook ([FromQuery] string query)
-        {
+    {
             var books = _registrationContext.IssuedBooks
                 .Where(b => b.Issued_Book_Name.Contains(query) || b.Member_Name.Contains(query))
                 .ToList();
             return Ok(books);
-}
+    }
 
 
 }
