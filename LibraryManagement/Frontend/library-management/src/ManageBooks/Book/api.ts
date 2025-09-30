@@ -1,7 +1,7 @@
 import { get } from "../../shared/api";
 
 const EMPTY: Book.Form = {
-    booksId:  0,
+    // booksId:  0,
   book_Name: "",
   author: "",
   publisher: "",
@@ -11,7 +11,7 @@ const EMPTY: Book.Form = {
   published_Date:"",
 };
 
-export async function getBook(booksId?: number) {
+export async function getBook(booksId?: string) {
     if (!booksId) {
         return EMPTY;
     }

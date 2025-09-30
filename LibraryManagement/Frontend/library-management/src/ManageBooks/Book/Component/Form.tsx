@@ -7,7 +7,7 @@ interface FormProps {
     fetchData?: () => Promise<Book.Form>;
 }
 
-export default function Form(props: FormProps) {
+ function Form(props: FormProps) {
     const {register, handleSubmit} = useForm<Book.Form>({
         defaultValues: props.fetchData,
 
@@ -19,8 +19,10 @@ export default function Form(props: FormProps) {
                 <input type="text" placeholder="BookName" {...register("book_Name")} />
                 <input type="text" placeholder="Author" {...register("author")} />
                 <input type="text" placeholder="Publisher" {...register("publisher")} />
-                <input type="text" placeholder="Category" {...register("isbn")} />
+                {/* FIX: Corrected register mapping from "isbn" to "category" */}
+                <input type="text" placeholder="Category" {...register("category")} /> 
                 <input type="text" placeholder="Edition" {...register("edition")} />
+                <input type="text" placeholder="ISBN" {...register("isbn")} />
                 <input type="text" placeholder="Published-date" {...register("published_Date")} />
                 <button type="submit">{props.buttonCaption}</button>
             </form>
@@ -28,4 +30,4 @@ export default function Form(props: FormProps) {
     );
 }
 
-
+export default Form

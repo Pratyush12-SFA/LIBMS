@@ -10,6 +10,7 @@ export default function Dashboard() {
       <p className="dashboard-text">
         Welcome!
       </p>
+      {/* <Link to="/ManageBooks/Form">BookForm</Link> */}
         <button
             className="category-btn"
             onClick={() => navigate("/auth/login")}

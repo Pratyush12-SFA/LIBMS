@@ -2,7 +2,6 @@
 // import BookModalForm from "./BookModalForm";
 // import "./List&Modal.css";
 
-
 // interface Book {
 //   booksId: number;
 //   book_Name: string;
@@ -23,8 +22,6 @@
 //   const [isModalOpen, setIsModalOpen] = useState(false);
 //   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
 //   const [searchQuery, setSearchQuery] = useState("");
-
-
 
 //   const fetchBooks = async () => {
 //     try {
@@ -149,7 +146,7 @@
 //         type = "text"
 //         placeholder="Search books here"
 //         value={searchQuery}
-//         onChange = {(e) => setSearchQuery(e.target.value)} 
+//         onChange = {(e) => setSearchQuery(e.target.value)}
 //         onKeyUp = {(e) => {
 //             if (e.key === "Enter") {
 //               handleSearch(searchQuery);
@@ -163,7 +160,7 @@
 //       {books.length > 0 ? (
 //         <table>
 //           <thead>
-//             <tr>  
+//             <tr>
 //               <th>Book ID</th>
 //               <th>Book Name</th>
 //               <th>Author</th>
@@ -211,86 +208,80 @@
 //   );
 // }
 
-
-
-
 import { Header } from "../../../shared/component/common";
 import { Link, useNavigate } from "react-router-dom";
 import { Datagrid } from "../../../shared/component/grid";
 import "./list.css";
 import { useBookListQuery, useBookMutation } from "./queries";
 
-
 export default function List() {
   const { data = [] } = useBookListQuery();
-  const { mutateAsync} = useBookMutation();
+  const { mutateAsync } = useBookMutation();
   const navigate = useNavigate();
-  
+
   return (
-    <>
-    <Header title= "City List " />
-    <Link to="/ManageBooks/Book/List">Add Book</Link>
-    <Datagrid
-    data={data}
-    columns={[
-      {
-        field: "booksId",
-        header: "BookId"
-      },
+    <div className="list-container">
+      <Header title="Book List " />
+      {/* FIX 1: Changed link destination and added className */}
+      <Link to="/ManageBooks/Add" className="add-book-link">Add Book</Link> 
+      <Datagrid
+        data={data}
+        columns={[
+          {
+            field: "booksId",
+            header: "BookId",
+          },
 
-      {
-        field:"book_Name",
-        header:"Book Name",
-      },
-      {
-        field:"author",
-        header:"Author",
-      },
-      {
-        field:"category",
-        header:"Category",
-      },
-      {
-        field: "edition",
-        header: "Edition",
-      },
-      {
-        field:"isbn",
-        header:"ISBN",
-      },
-      {
-        field:"publisher",
-        header:"Publisher",
-      },
-      {
-        field:"published_Date",
-        header:"Published-Date",
-      },
-      {
-        buttonCaption: "Edit",
-        onClick: (item) => {
-          navigate("/auth/DashBoardM" + item.booksId)
-        },
-      },
-      {
-        buttonCaption: "Remove",
-        onClick: async (item) => {
-          const result = confirm (
-            `Are you sure you want to remove ${item.book_Name}?`
-          );
-          if (!result) {
-            return;
-          }
+          {
+            field: "book_Name",
+            header: "Book Name",
+          },
+          {
+            field: "author",
+            header: "Author",
+          },
+          {
+            field: "category",
+            header: "Category",
+          },
+          {
+            field: "edition",
+            header: "Edition",
+          },
+          {
+            field: "isbn",
+            header: "ISBN",
+          },
+          {
+            field: "publisher",
+            header: "Publisher",
+          },
+          {
+            field: "published_Date",
+            header: "Published-Date",
+          },
+          {
+            buttonCaption: "Edit",
+            onClick: (item) => {
+              // FIX 2: Corrected navigation path to Edit route
+              navigate(`/ManageBooks/Edit/${item.booksId}`); 
+            },
+          },
+          {
+            buttonCaption: "Remove",
+            onClick: async (item) => {
+              const result = confirm(
+                `Are you sure you want to remove ${item.book_Name}?`
+              );
+              if (!result) {
+                return;
+              }
 
-          await mutateAsync(item.booksId);
-        },
-      },
-    ]}
-/>
-    </>
-  )
-
-
-
-
+              await mutateAsync(item.booksId);
+            },
+          },
+        ]}
+      />
+    </div>
+  );
 }

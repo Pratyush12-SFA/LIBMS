@@ -1,6 +1,6 @@
 declare namespace Book {
     interface Form {
-        booksId: number;
+// booksId: number;
   book_Name: string;
   author: string;
   publisher: string;
