@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // Assuming 'react-router-dom' is installed
 
 // 1. Define the Book interface for type safety
 interface Book {
-  booksId: number;
+  bookId: number;
   book_Name: string;
   author: string;
   publisher: string;
@@ -28,6 +28,9 @@ export default function DashBoardM() {
     setLoading(true);
     setError(null);
     try {
+      // Simulate network delay for localhost (often needed when using http over https)
+      await new Promise(resolve => setTimeout(resolve, 300));
+
       const response = await fetch(`${API_BASE_URL}/GetBooks`);
 
       if (!response.ok) {
@@ -99,9 +102,22 @@ export default function DashBoardM() {
     return date.toLocaleDateString();
   };
 
+  /**
+   * Handles navigation to the Issue Book Form, passing book data via state.
+   */
+  const handleIssueBook = (bookId: number, bookName: string) => {
+    navigate("/ManageBooks/IssueBookForm", {
+      state: { bookId, bookName },
+    });
+  };
+
   if (loading) {
     return (
       <div className="text-center p-8 text-xl font-semibold text-gray-700">
+        <svg className="animate-spin inline h-6 w-6 mr-3 text-indigo-500" viewBox="0 0 24 24">
+            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
         Loading books...
       </div>
     );
@@ -109,8 +125,16 @@ export default function DashBoardM() {
 
   if (error) {
     return (
-      <div className="text-center p-8 bg-red-100 border border-red-400 text-red-700 rounded">
-        Error: {error}
+      <div className="text-center p-8 bg-red-100 border border-red-400 text-red-700 rounded-lg shadow-md max-w-lg mx-auto mt-10">
+        <h3 className="font-bold text-lg mb-2">Connection Error</h3>
+        <p>Could not load book data. Please check the API status.</p>
+        <p className="text-sm mt-1">Details: {error}</p>
+        <button
+          onClick={fetchAllBooks}
+          className="mt-4 bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-lg transition duration-200"
+        >
+          Try Reloading
+        </button>
       </div>
     );
   }
@@ -156,7 +180,8 @@ export default function DashBoardM() {
         />
         <button
           onClick={() => handleSearch(searchQuery)}
-          className="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200"
+          className="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200 disabled:opacity-50"
+          disabled={loading}
         >
           Search
         </button>
@@ -176,12 +201,14 @@ export default function DashBoardM() {
                 <TableHeader>Edition</TableHeader>
                 <TableHeader>ISBN</TableHeader>
                 <TableHeader>Published Date</TableHeader>
+                {/* NEW: Action Header */}
+                <TableHeader>Action</TableHeader>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-100">
               {books.map((book) => (
-                <tr key={book.booksId} className="hover:bg-indigo-50 transition duration-150">
-                  <TableData>{book.booksId}</TableData>
+                <tr key={book.bookId} className="hover:bg-indigo-50 transition duration-150">
+                  <TableData>{book.bookId}</TableData>
                   <TableData className="font-medium text-gray-900">
                     {book.book_Name}
                   </TableData>
@@ -191,6 +218,15 @@ export default function DashBoardM() {
                   <TableData>{book.edition}</TableData>
                   <TableData>{book.isbn}</TableData>
                   <TableData>{formatDate(book.published_Date)}</TableData>
+                  {/* NEW: Issue Button */}
+                  <TableData>
+                    <button
+                      onClick={() => handleIssueBook(book.bookId, book.book_Name)}
+                      className="bg-purple-500 hover:bg-purple-600 text-white text-sm font-medium px-3 py-1.5 rounded-full shadow-md transition duration-150 transform hover:scale-105"
+                    >
+                      Issue
+                    </button>
+                  </TableData>
                 </tr>
               ))}
             </tbody>

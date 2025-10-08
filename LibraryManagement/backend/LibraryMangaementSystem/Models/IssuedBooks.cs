@@ -15,8 +15,8 @@ namespace LibraryMangaementSystem.Models
       
         public string Member_Name { get; set; } = string.Empty;
         public string Member_Type { get; set; } = string.Empty;
-        public DateTime Issue_Date { get; set; }
-        public DateTime Return_Date { get; set; }
+        public DateOnly Issue_Date { get; set; }
+        public DateOnly Return_Date { get; set; }
         public string Over_Due { get; set; } = string.Empty;
 
     }

@@ -1,7 +1,6 @@
 ﻿using LibraryManagementSystem.Data;
 using LibraryManagementSystem.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -9,13 +8,10 @@ namespace LibraryMangaementSystem.Controllers
 {
     [Route("api/Books")]
     [ApiController]
-    public sealed class BookController : ControllerBase
+    public sealed class BookController(RegistrationContext Context) : ControllerBase
     {
-        private readonly RegistrationContext _registrationContext;
-        public BookController(RegistrationContext Context)
-        {
-            _registrationContext = Context;
-        }
+        private readonly RegistrationContext _registrationContext = Context;
+
         [HttpPost("AddBook")]
 
         public IActionResult AddBook([FromBody] Books books)
@@ -42,7 +38,7 @@ namespace LibraryMangaementSystem.Controllers
 
         public IActionResult DeleteBook(int id)
         {
-            var book = _registrationContext.Books.FirstOrDefault(b => b.BooksId == id);
+            var book = _registrationContext.Books.FirstOrDefault(b => b.BookId == id);
             if (book == null)
             {
                 return NotFound("Book not found.");
@@ -52,11 +48,11 @@ namespace LibraryMangaementSystem.Controllers
             return Ok("Book deleted successfully.");
         }
 
-        [HttpPut("UpdateBook/{id}")]
+        [HttpPut("UpdateBookDetails/{id}")]
 
         public IActionResult UpdateBook(int id, [FromBody] Books updatedBook)
         {
-            var book = _registrationContext.Books.FirstOrDefault(b => b.BooksId == id);
+            var book = _registrationContext.Books.FirstOrDefault(b => b.BookId == id);
             if (book == null)
             {
                 return NotFound("Book not found.");
@@ -87,7 +83,7 @@ namespace LibraryMangaementSystem.Controllers
 
         public IActionResult GetBookById(int id)
         {
-            var book = _registrationContext.Books.FirstOrDefault(b => b.BooksId == id);
+            var book = _registrationContext.Books.FirstOrDefault(b => b.BookId == id);
             if (book == null)
             {
                 return NotFound("Book not found.");

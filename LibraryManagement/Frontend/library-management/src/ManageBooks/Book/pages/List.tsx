@@ -228,7 +228,7 @@ export default function List() {
         data={data}
         columns={[
           {
-            field: "booksId",
+            field: "bookId",
             header: "BookId",
           },
 
@@ -264,7 +264,7 @@ export default function List() {
             buttonCaption: "Edit",
             onClick: (item) => {
               // FIX 2: Corrected navigation path to Edit route
-              navigate(`/ManageBooks/Edit/${item.booksId}`); 
+              navigate(`/ManageBooks/Edit/${item.bookId}`); 
             },
           },
           {
@@ -277,7 +277,7 @@ export default function List() {
                 return;
               }
 
-              await mutateAsync(item.booksId);
+              await mutateAsync(item.bookId);
             },
           },
         ]}

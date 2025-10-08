@@ -1,21 +1,21 @@
-import { useNavigate, useParams } from "react-router";
+import {  useParams } from "react-router";
 import { put } from "../../../shared/api";
 import { Header } from "../../../shared/component/common";
 import Form from "../Component/Form";
 import { getBook } from "../api";
 
 export default function Edit() {
-  const { booksId } = useParams();
-  const navigate = useNavigate();
+  const { bookId } = useParams();
+  // const navigate = useNavigate();
 
   async function handleEditSubmit(data: Book.Form) {
-    const response = await put(`Books/UpdateBook/${booksId}`, data);
-    console.log(booksId);
+   const response = await put(`Books/UpdateBookDetails/${bookId}`, data)
+    
 
     if (response) {
       alert("Book saved successfully");
       // FIX: Change the path to the correct Book List page
-      navigate("/ManageBooks/List");
+      // navigate("/ManageBooks/List");
     }
   }
 
@@ -23,7 +23,7 @@ export default function Edit() {
     <>
       <Header title="Edit State" />
       <Form
-        fetchData={() => getBook(booksId)}
+        fetchData={() => getBook(bookId)}
         buttonCaption="Edit"
         onFormSubmit={handleEditSubmit}
       />

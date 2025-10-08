@@ -11,7 +11,7 @@ declare namespace Book {
     }
 
     interface BookItem {
-        booksId: number;
+        bookId: number;
   book_Name: string;
   author: string;
   publisher: string;

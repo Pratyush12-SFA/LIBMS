@@ -76,7 +76,7 @@
   {
     "ContainingType": "LibraryMangaementSystem.Controllers.BookController",
     "Method": "UpdateBook",
-    "RelativePath": "api/Books/UpdateBook/{id}",
+    "RelativePath": "api/Books/UpdateBookDetails/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -127,23 +127,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
-    "Method": "DeleteIssuedBook",
-    "RelativePath": "api/Issued_Books",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "GetIssuedBookById",
     "RelativePath": "api/Issued_Books/{id}",
     "HttpMethod": "GET",
@@ -159,7 +143,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "UpdateIssuedBook",
     "RelativePath": "api/Issued_Books/{id}",
     "HttpMethod": "PUT",
@@ -180,7 +164,23 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
+    "Method": "DeleteIssuedBook",
+    "RelativePath": "api/Issued_Books/DeleteBook/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "GetIssuedBooks",
     "RelativePath": "api/Issued_Books/GetIssuedBooks",
     "HttpMethod": "GET",
@@ -190,7 +190,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "IssueBook",
     "RelativePath": "api/Issued_Books/IssueBook",
     "HttpMethod": "POST",
@@ -206,10 +206,10 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "ReissueBook",
     "RelativePath": "api/Issued_Books/ReissueBook/{id}",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -222,7 +222,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "ReturnBook",
     "RelativePath": "api/Issued_Books/ReturnBook/{id}",
     "HttpMethod": "POST",
@@ -238,7 +238,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagementSystem.Controllers.Issued_BooksController",
+    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "SearchIssuedBook",
     "RelativePath": "api/Issued_Books/SearchIssuedBook",
     "HttpMethod": "GET",

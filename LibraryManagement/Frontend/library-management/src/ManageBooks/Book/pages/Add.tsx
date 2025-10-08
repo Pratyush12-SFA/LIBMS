@@ -9,7 +9,7 @@ export default function Add() {
 
     async function handleBookSubmit(data: Book.Form) {
         const response = await post("Books/AddBook", data);
-        if(response) {
+        if(!response) {
             alert("Book saved successfully");
             navigate("/ManageBooks/List");
         }

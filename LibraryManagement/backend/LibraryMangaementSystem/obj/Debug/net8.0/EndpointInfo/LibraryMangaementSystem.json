@@ -71,7 +71,7 @@
         }
       }
     },
-    "/api/Books/UpdateBook/{id}": {
+    "/api/Books/UpdateBookDetails/{id}": {
       "put": {
         "tags": [
           "Book"
@@ -325,7 +325,7 @@
         }
       }
     },
-    "/api/Issued_Books": {
+    "/api/Issued_Books/DeleteBook/{id}": {
       "delete": {
         "tags": [
           "Issued_Books"
@@ -333,7 +333,8 @@
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -371,7 +372,7 @@
       }
     },
     "/api/Issued_Books/ReissueBook/{id}": {
-      "post": {
+      "put": {
         "tags": [
           "Issued_Books"
         ],
@@ -482,7 +483,7 @@
       "Books": {
         "type": "object",
         "properties": {
-          "booksId": {
+          "bookId": {
             "type": "integer",
             "format": "int32"
           },
@@ -591,11 +592,11 @@
           },
           "issue_Date": {
             "type": "string",
-            "format": "date-time"
+            "format": "date"
           },
           "return_Date": {
             "type": "string",
-            "format": "date-time"
+            "format": "date"
           },
           "over_Due": {
             "type": "string",

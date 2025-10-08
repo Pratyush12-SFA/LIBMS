@@ -15,16 +15,16 @@ export function useBookListQuery() {
 export function useBookMutation() {
   const queryClient = useQueryClient();
   return useMutation({
-    mutationFn: (booksId: number) => {
-      return del(`Books/DeleteBook/${booksId}`);
+    mutationFn: (bookId: number) => {
+      return del(`Books/DeleteBook/${bookId}`);
     },
-    onSuccess: (_, booksId) => {
+    onSuccess: (_, bookId) => {
       const data = queryClient.getQueryData<Book.BookItem[]>(QUERY_KEY);
       if (!data) {
         return;
       }
 
-      const result = data.filter((s) => s.booksId !== booksId);
+      const result = data.filter((s) => s.bookId !== bookId);
 
       queryClient.setQueryData(QUERY_KEY, result);
     },

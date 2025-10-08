@@ -11,10 +11,10 @@ const EMPTY: Book.Form = {
   published_Date:"",
 };
 
-export async function getBook(booksId?: string) {
-    if (!booksId) {
+export async function getBook(bookId?: string) {
+    if (!bookId) {
         return EMPTY;
     }
-    const result = await get<Book.Form>(`Books/GetBookByID/${booksId}`);
+    const result = await get<Book.Form>(`Books/GetBookByID/${bookId}`);
     return result ?? EMPTY;
 }
