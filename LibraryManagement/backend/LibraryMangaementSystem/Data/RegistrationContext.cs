@@ -1,6 +1,7 @@
 ﻿using LibraryManagementSystem.Models;
 using LibraryMangaementSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata;
 
 
 
@@ -13,5 +14,14 @@ namespace LibraryManagementSystem.Data
         public DbSet<EmployeeRegistration> Employee { get; set; }
         public DbSet<Books> Books { get; set; }
         public DbSet<IssuedBooks> IssuedBooks { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<IssuedBooks>()
+      .ToTable(tb => tb.UseSqlOutputClause(false));
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

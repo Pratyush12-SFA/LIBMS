@@ -165,22 +165,6 @@
   },
   {
     "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
-    "Method": "DeleteIssuedBook",
-    "RelativePath": "api/Issued_Books/DeleteBook/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LibraryMangaementSystem.Controllers.Issued_BooksController",
     "Method": "GetIssuedBooks",
     "RelativePath": "api/Issued_Books/GetIssuedBooks",
     "HttpMethod": "GET",

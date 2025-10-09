@@ -325,29 +325,6 @@
         }
       }
     },
-    "/api/Issued_Books/DeleteBook/{id}": {
-      "delete": {
-        "tags": [
-          "Issued_Books"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Issued_Books/ReturnBook/{id}": {
       "post": {
         "tags": [
@@ -514,6 +491,10 @@
           "published_Date": {
             "type": "string",
             "format": "date"
+          },
+          "bookStatus": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

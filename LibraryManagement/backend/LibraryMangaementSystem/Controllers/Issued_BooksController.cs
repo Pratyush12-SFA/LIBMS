@@ -77,19 +77,7 @@ public class Issued_BooksController(RegistrationContext context) : ControllerBas
         return Ok("Book issued successfully.");
     }
 
-   [HttpDelete("DeleteBook/{id}")]
-
-    public IActionResult DeleteIssuedBook(int id)
-    {
-        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(ib => ib.Issue_Id == id);
-        if (issuedBook == null)
-        {
-            return NotFound("Issued book record not found.");
-        }
-        _registrationContext.IssuedBooks.Remove(issuedBook);
-        _registrationContext.SaveChanges();
-        return Ok("Issued book record deleted successfully.");
-    }
+   
 
     [HttpPut("{id}")]
     public IActionResult UpdateIssuedBook(int id, [FromBody] IssuedBooks updateIssuedBook)
@@ -132,20 +120,29 @@ public class Issued_BooksController(RegistrationContext context) : ControllerBas
 
         return Ok(issuedBook + " Issued book record updated successfully.");
     }
-
     [HttpPost("ReturnBook/{id}")]
     public IActionResult ReturnBook(int id)
     {
-        var issuedBook = _registrationContext.IssuedBooks.FirstOrDefault(ib => ib.Issue_Id == id);
+        // 1️⃣ Fetch the issued book record
+        var issuedBook = _registrationContext.IssuedBooks
+                            .FirstOrDefault(ib => ib.Issue_Id == id);
+
         if (issuedBook == null)
         {
             return NotFound("Issued book record not found.");
         }
 
-        _registrationContext.IssuedBooks.Remove(issuedBook);
+        // 2️⃣ Instead of deleting immediately, mark the Return_Date
+        // This ensures your AFTER UPDATE trigger can mark the book as Available
+        issuedBook.Return_Date = DateOnly.FromDateTime(DateTime.Now);
+
+        // 3️⃣ Update the issued book instead of removing it
+        _registrationContext.IssuedBooks.Update(issuedBook);
         _registrationContext.SaveChanges();
+
         return Ok("Book returned successfully.");
     }
+
 
     [HttpPut("ReissueBook/{id}")]
     public IActionResult ReissueBook(int id)

@@ -11,6 +11,7 @@ interface Book {
   edition: string;
   isbn: string;
   published_Date: string;
+  bookStatus: string;
 }
 
 export default function DashBoardM() {
@@ -201,6 +202,7 @@ export default function DashBoardM() {
                 <TableHeader>Edition</TableHeader>
                 <TableHeader>ISBN</TableHeader>
                 <TableHeader>Published Date</TableHeader>
+                <TableHeader>Book Status</TableHeader>
                 {/* NEW: Action Header */}
                 <TableHeader>Action</TableHeader>
               </tr>
@@ -218,6 +220,7 @@ export default function DashBoardM() {
                   <TableData>{book.edition}</TableData>
                   <TableData>{book.isbn}</TableData>
                   <TableData>{formatDate(book.published_Date)}</TableData>
+                  <TableData>{book.bookStatus}</TableData>
                   {/* NEW: Issue Button */}
                   <TableData>
                     <button

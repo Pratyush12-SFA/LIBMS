@@ -695,6 +695,7 @@ C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\n
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\LibraryMangaementSystem.pdb
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -841,6 +842,7 @@ C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\n
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.csproj.CoreCompileInputs.cache
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.sourcelink.json
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -849,12 +851,10 @@ C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\n
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryM.31802DAE.Up2Date
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.dll
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\refint\LibraryMangaementSystem.dll
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.pdb
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.genruntimeconfig.cache
 C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\ref\LibraryMangaementSystem.dll
-C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\LibraryMangaementSystem.sourcelink.json
-C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Sfa\Libms\LibraryManagement\backend\LibraryMangaementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

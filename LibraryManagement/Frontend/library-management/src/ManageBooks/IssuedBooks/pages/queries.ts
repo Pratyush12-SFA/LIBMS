@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { del, get } from "../../../shared/api";
+import { get, post } from "../../../shared/api";
     import  {put}  from "../../../shared/api"; 
 
 
@@ -18,7 +18,7 @@ export function useIssueBookMutation() {
     const queryClient = useQueryClient();
     return useMutation({
         mutationFn: (issue_Id: number) => {
-            return del(`Issued_Books/DeleteBook/${issue_Id}`);
+            return post(`Issued_Books/ReturnBook/${issue_Id}`, QUERY_KEY);
         },
         onSuccess: (_, issue_Id) => {
             const data = queryClient.getQueryData<IssueBook.IssuedBookItem[]>(QUERY_KEY);
