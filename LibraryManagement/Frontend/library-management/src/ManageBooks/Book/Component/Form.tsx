@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { Card } from "../../../shared/component/common";
+import  "../../Book/Component/Form.css"
 
 interface FormProps {
     onFormSubmit: (data: Book.Form) => void;
