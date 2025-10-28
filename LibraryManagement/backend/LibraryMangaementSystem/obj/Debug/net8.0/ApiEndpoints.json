@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "LibraryMangaementSystem.Controllers.BookController",
+    "Method": "GetBookById",
+    "RelativePath": "api/Books/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryMangaementSystem.Controllers.BookController",
     "Method": "AddBook",
     "RelativePath": "api/Books/AddBook",
     "HttpMethod": "POST",
@@ -20,22 +36,6 @@
     "Method": "DeleteBook",
     "RelativePath": "api/Books/DeleteBook/{id}",
     "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LibraryMangaementSystem.Controllers.BookController",
-    "Method": "GetBookById",
-    "RelativePath": "api/Books/GetBookById/{id}",
-    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

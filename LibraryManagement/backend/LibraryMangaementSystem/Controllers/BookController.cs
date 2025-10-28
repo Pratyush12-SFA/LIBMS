@@ -79,7 +79,7 @@ namespace LibraryMangaementSystem.Controllers
             return Ok(books);
         }
 
-        [HttpGet("GetBookById/{id}")]
+        [HttpGet("{id}")]
 
         public IActionResult GetBookById(int id)
         {

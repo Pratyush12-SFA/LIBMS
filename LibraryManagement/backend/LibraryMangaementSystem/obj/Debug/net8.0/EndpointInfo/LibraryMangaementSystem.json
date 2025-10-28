@@ -134,7 +134,7 @@
         }
       }
     },
-    "/api/Books/GetBookById/{id}": {
+    "/api/Books/{id}": {
       "get": {
         "tags": [
           "Book"

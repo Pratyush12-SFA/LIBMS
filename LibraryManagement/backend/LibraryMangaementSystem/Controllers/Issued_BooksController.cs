@@ -35,7 +35,7 @@ public class Issued_BooksController(RegistrationContext context) : ControllerBas
     {
         var book = _registrationContext.Books.FirstOrDefault(b => b.BookId == issued_Books.BooksId);
         var member = _registrationContext.Member.FirstOrDefault(m => m.UserId == issued_Books.UserId);
-       
+            
         
         
         DateOnly today = DateOnly.FromDateTime(DateTime.Now);
